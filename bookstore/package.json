@@ -2,16 +2,16 @@
   "name": "@capire/bookstore",
   "version": "1.0.0",
   "dependencies": {
+    "@cap-js/hana": ">=1",
     "@capire/bookshop": "*",
-    "@capire/reviews": "*",
-    "@capire/orders": "*",
     "@capire/common": "*",
     "@capire/data-viewer": "*",
-    "@sap-cloud-sdk/http-client": "^4",
+    "@capire/orders": "*",
+    "@capire/reviews": "*",
+    "@sap-cloud-sdk/http-client": "^4.7.0",
     "@sap-cloud-sdk/resilience": "^4",
-    "@sap/cds": ">=5",
-    "express": "^4.17.1",
-    "@cap-js/hana": ">=1"
+    "@sap/cds": "^9.9.2",
+    "express": "^5.2.1"
   },
   "cds": {
     "requires": {
@@ -26,7 +26,9 @@
       "messaging": true,
       "db": true
     },
-    "log": { "service": true }
+    "log": {
+      "service": true
+    }
   },
   "scripts": {
     "start": "cds-serve"

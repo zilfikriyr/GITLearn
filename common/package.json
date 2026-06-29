@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@capire/common": "file:",
-    "@sap/cds": "*"
+    "@sap/cds": "^9.9.2"
   },
   "cds": {
     "requires": {

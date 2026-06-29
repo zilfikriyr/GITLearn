@@ -4,7 +4,7 @@
   "description": "A generic browser for data",
   "dependencies": {
     "@capire/data-viewer": "file:",
-    "@sap/cds": ">=5.0.4"
+    "@sap/cds": "^9.9.2"
   },
   "files": [
     "app",
