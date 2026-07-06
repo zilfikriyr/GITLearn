@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "dependencies": {
     "@capire/bookstore": "*",
-    "@sap/cds": ">=5",
-    "express": "^4.17.1"
+    "@sap/cds": "^10.0.3",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "@cap-js/sqlite": ">=1"

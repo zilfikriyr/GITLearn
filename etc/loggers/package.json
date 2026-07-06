@@ -8,8 +8,8 @@
   ],
   "dependencies": {
     "@capire/loggers": "file:",
-    "@sap/cds": ">=5.9",
-    "express": "^4.17.1"
+    "@sap/cds": "^10.0.3",
+    "express": "^5.2.1"
   },
   "scripts": {
     "start": "cds-serve",

@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@capire/bookshop": "file:",
-    "@sap/cds": ">=7",
-    "express": "^4.17.1"
+    "@sap/cds": "^10.0.3",
+    "express": "^5.2.1"
   },
   "scripts": {
     "genres": "cds serve test/genres.cds",
